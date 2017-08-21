@@ -14,6 +14,7 @@ namespace TestLib.Tools
 
         private string _path;
         #region Constructor
+
         public LogManager(string path, LogType logType, string prefix, string postfix)
         {
             _path = path;

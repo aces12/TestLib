@@ -37,6 +37,7 @@ namespace TestLibTest
             string temp = "2017-06-01 11:20:33.33344564754578678968968";
             //int temp = 0;
             
+
             Console.WriteLine(":IsNumeric : " + temp.IsNumeric());
             Console.WriteLine(":IsDatetime : " + temp.IsDateTime());
             

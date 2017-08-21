@@ -12,9 +12,8 @@ namespace TestLib.Tools
         {
             get
             {
+
                 return AppDomain.CurrentDomain.BaseDirectory;    
-
-
             }
         }
     }
