@@ -16,7 +16,6 @@ namespace TestLib.Extensions
         public static DateTime LastDateOfMonth(this DateTime date)
         {
             return new DateTime(date.Year, date.Month, DateTime.DaysInMonth(date.Year, date.Month));
-
         }
     }
 }
